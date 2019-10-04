@@ -1,0 +1,213 @@
+
+.whole-thing{
+    background-color:black
+}
+.background{
+    background: linear-gradient(
+                     rgba(0, 0, 0, 0.5), 
+                     rgba(0, 0, 0, 0.5));
+}
+.logom{
+    width: 100px;
+    height:60px;
+
+}
+.top-row{
+    display:flex;
+    justify-content: space-between;
+
+}
+.nav-nav-tabs{
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction:row;
+
+}
+.nav-link{
+    color:lightgray;
+}
+.name{
+    display:flex;
+    justify-content: flex-start;
+    margin:3.5em 0 0 7em;
+    
+}
+.myname{
+    color: white;
+}
+
+.short{
+    display:flex;
+    justify-content: center;
+    word-wrap: normal;
+    margin:0 0 1em 0;
+}
+.middle{
+    color:lightgray;
+    background-color: rgb(56, 55, 55);
+    padding: 2%;
+    opacity: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.socials{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+    
+    
+}
+.socialrow{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.insta{
+    height:70px;
+    width:70px;
+    margin:1em 2em;
+}
+.github{
+    height:70px;
+    width:70px;
+    margin:1em 2em;  
+}
+.linkIN{
+    height:70px;
+    width:70px;
+    margin:1em 2em;
+    
+}
+#caption{
+    border-style: groove;
+    border-width:2px;
+    margin: 1em;
+    padding:6px;
+    color:rgb(162, 53, 252);
+    text-align: center;
+}
+.jumbotron-jumbotron-fluid{
+    background-color: rgb(56, 55, 55);
+    margin:2em 0em;
+    display:flex;
+    flex-direction: column;
+}
+.lead{
+    color:lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.display-4{
+    color: rgb(162, 53, 252);
+}
+.containers{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.col-sms{
+    border:2px white;
+    height:600px;
+    width:30%;
+    background-color:transparent;
+    margin:2px;
+
+
+}
+.col-sms2{
+    border:2px white;
+    height:300px;
+    width:30%;
+    background-color:transparent;
+    margin:2px;
+}
+.logo-box{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.elogos{
+    border-radius: 20%;
+    height: 20%;
+    width:20%;
+    padding: 2%;
+}
+.col-sms3{
+    border:2px white;
+    height:600px;
+    width:30%;
+    background-color:transparent;
+    margin:2px;
+}
+.values{
+    color:rgb(162, 53, 252);
+    text-decoration: lightgray underline;
+    
+
+}
+.li{
+    font-size: 2rem;
+    color: lightgray;
+    text-align: center;
+}
+.closer {
+    position: relative;
+    left: -20%;
+    text-align: center
+}
+
+.footer{
+    padding:0% 20% 0% 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.Card{
+    background-color: black;
+}
+.card-body
+{
+    margin:1px;
+}
+.modal-title
+{
+    display: flex;
+    justify-content: center;
+}
+
+.message
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.texas
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.a{
+    color: lightgray;
+}
+
+.brightness {
+   
+    display: inline-block;
+   
+}
+.brightness img:hover {
+    opacity: .5;
+}
+img{
+    width: 100px;
+
+}
