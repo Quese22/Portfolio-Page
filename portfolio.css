@@ -1,11 +1,15 @@
 
 .whole-thing{
-    background-color:black
+    background-color:black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
 }
 .background{
     background: linear-gradient(
                      rgba(0, 0, 0, 0.5), 
                      rgba(0, 0, 0, 0.5));
+                     background-repeat: no-repeat;
 }
 .logom{
     width: 100px;
@@ -90,6 +94,7 @@
     color:rgb(162, 53, 252);
     text-align: center;
 }
+
 .jumbotron-jumbotron-fluid{
     background-color: rgb(56, 55, 55);
     margin:2em 0em;
@@ -104,47 +109,28 @@
 .display-4{
     color: rgb(162, 53, 252);
 }
+
+.jumbotron-jumbotron-fluid{
+    margin-bottom: 8em;
+}
 .containers{
     display:flex;
     justify-content: center;
     text-align: center;
     
 }
-.col-sms{
+.container-fluid{
     border:2px white;
-    height:600px;
-    width:30%;
+    width:100%;
     background-color:transparent;
     margin:2px;
 
-
 }
-.col-sms2{
-    border:2px white;
-    height:300px;
-    width:30%;
-    background-color:transparent;
-    margin:2px;
-}
-.logo-box{
-    display: flex;
-    flex-direction: row;
-
-
-}
-
 .elogos{
     border-radius: 20%;
     height: 20%;
     width:20%;
     padding: 2%;
-}
-.col-sms3{
-    border:2px white;
-    height:600px;
-    width:30%;
-    background-color:transparent;
-    margin:2px;
 }
 .values{
     color:rgb(162, 53, 252);
@@ -207,7 +193,132 @@
 .brightness img:hover {
     opacity: .5;
 }
-img{
-    width: 100px;
 
+#carouselExampleIndicators{
+width:200px;
+margin-left:6.5em;
+margin-bottom: 8em;
+
+}
+.carousel-indicators{
+margin-top: 2em;
+position:inherit;
+}
+.carousel-inner{
+margin-bottom: 4em;
+position: center;
+margin:auto,auto;
+}
+
+.carousel-item{
+    height: 100px;
+    width:100px;
+    margin:auto,auto;
+}
+.d-block{
+    margin:auto,auto;
+    
+}
+.w-100{
+    margin-left:3em;
+    
+}
+@media only screen and (max-width: 1200px){
+    #carouselExampleIndicators{
+        margin-left:4.5em;
+        margin-bottom: 2em;
+        width:200px;
+    }
+    .footer{
+        padding:0% 20% 0% 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+}
+@media only screen and (max-width: 872px){
+    #carouselExampleIndicators{
+        margin-left:1.5em;
+        margin-bottom: 0em;
+        width:200px;
+    }
+    .footer{
+        padding:0% 20% 0% 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .li{
+        font-size: 1rem;
+        color: lightgray;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 704px){
+    #carouselExampleIndicators{
+        margin-left:.5em;
+        margin-bottom: 0em;
+        width:200px;
+    }
+    .footer{
+        padding:2% 2% 0% 2%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .li{
+        font-size: 1rem;
+        color: lightgray;
+        text-align: center;
+    }
+    .values{
+        font-size: 1.5rem;
+
+    }
+    .card{
+        max-width: 200px;
+    }
+    .logom{
+        margin-left:10px;
+    }
+}
+@media only screen and (max-width: 375px){
+    #carouselExampleIndicators{
+        margin-left:3.5em;
+        margin-bottom: 0em;
+        width:200px;
+    }
+    .footer{
+        padding:2% 2% 0% 3%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .li{
+        font-size: 1rem;
+        color: lightgray;
+        text-align: center;
+    }
+    .values{
+        font-size: 1.5rem;
+
+    }
+    .card{
+        max-width: 200px;
+        margin-right: 2em;
+    }
+    .moving{
+       display: flex;
+       
+    }
+    .containers{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 3em;
+    }
+    .jumbotron-jumbotron-fluid{
+        margin-bottom:1em;
+    }
 }
